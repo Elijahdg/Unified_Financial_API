@@ -4,7 +4,7 @@
   "description": "This is the unified financial API for our project",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Elijah Gervais",
   "license": "ISC",

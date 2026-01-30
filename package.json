@@ -1,0 +1,14 @@
+{
+  "name": "financial_data_pipeline",
+  "version": "1.0.0",
+  "description": "This is the unified financial API for our project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Elijah Gervais",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

@@ -3,12 +3,31 @@
   "version": "1.0.0",
   "description": "This is the unified financial API for our project",
   "main": "app.js",
+  "type": "module",
   "scripts": {
-    "start": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "test_equities": "node polygon_api/market_data/equities_data.js",
+    "test_options": "node polygon_api/market_data/options_data.js",
+    "test_treasury_yields": "node polygon_api/economic_data/treasury_yields.js",
+    "test_inflation": "node polygon_api/economic_data/inflation_data.js",
+    "test_labour": "node polygon_api/economic_data/labour_market_data.js", 
+    "test_inflation_e":"node polygon_api/economic_data/inflation_expectations.js",
+    "fetch_pltr": "node polygon_api/specific_stock.js"
   },
-  "author": "Elijah Gervais",
+  "authors": [
+    "Elijah Gervais",
+    "Agnim Gupta",
+    "Havishey Jotaniya",
+    "Jyotiraditya Singh",
+    "Viraj Tapkir"
+  ],
   "license": "ISC",
   "dependencies": {
-    "express": "^5.2.1"
+    "axios": "^1.13.4",
+    "client": "^0.0.1",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "massive": "^6.11.3",
+    "pg": "^8.18.0"
   }
 }

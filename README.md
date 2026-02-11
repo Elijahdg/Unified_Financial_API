@@ -1,4 +1,4 @@
-# Inference Engine API 
+# Neural API 
 This is an API that we constructed to get multiple sources of financial and 
 economic metrics and transform them into a format that we can use to put into our time series database.
 This is the data that we will use in order to eventually train. 

@@ -10,8 +10,8 @@
     "test_options": "node polygon_api/market_data/options_data.js",
     "test_treasury_yields": "node polygon_api/economic_data/treasury_yields.js",
     "test_inflation": "node polygon_api/economic_data/inflation_data.js",
-    "test_labour": "node polygon_api/economic_data/labour_market_data.js", 
-    "test_inflation_e":"node polygon_api/economic_data/inflation_expectations.js",
+    "test_labour": "node polygon_api/economic_data/labour_market_data.js",
+    "test_inflation_e": "node polygon_api/economic_data/inflation_expectations.js",
     "fetch_pltr": "node polygon_api/specific_stock.js"
   },
   "authors": [
@@ -23,11 +23,23 @@
   ],
   "license": "ISC",
   "dependencies": {
+    "@massive.com/client-js": "^10.5.0",
     "axios": "^1.13.4",
     "client": "^0.0.1",
-    "dotenv": "^17.2.3",
+    "dotenv": "^17.3.1",
     "express": "^5.2.1",
     "massive": "^6.11.3",
-    "pg": "^8.18.0"
-  }
+    "mongoose": "^9.3.1",
+    "pg": "^8.20.0",
+    "tigergraph.js": "^1.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elijahdg/Unified_Financial_API.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/Elijahdg/Unified_Financial_API/issues"
+  },
+  "homepage": "https://github.com/Elijahdg/Unified_Financial_API#readme"
 }
